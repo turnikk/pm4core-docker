@@ -1,3 +1,4 @@
+
 version: "3.8"
 services:
   web:
@@ -29,7 +30,7 @@ services:
       MYSQL_USER: pm
       MYSQL_PASSWORD: pass
     volumes:
-      - database : /var/lib/mysql
+      - database:/var/lib/mysql
 volumes:
   database:
   storage:
